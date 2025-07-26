@@ -1,7 +1,7 @@
 {
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true,
-    "source.fixAll": true
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -17,19 +17,27 @@
   "eslint.packageManager": "yarn",
   "eslint.lintTask.options": "--cache .",
   "[javascript]": {
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascriptreact]": {
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescript]": {
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescriptreact]": {
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }

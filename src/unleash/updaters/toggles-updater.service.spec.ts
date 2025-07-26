@@ -55,7 +55,7 @@ describe('TogglesUpdaterService', () => {
 
       expect(toggles).toMatchInlineSnapshot(`
         ToggleRepository {
-          "items": Array [
+          "items": [
             ToggleEntity {
               "id": "toggle1",
               "name": "toggle1",

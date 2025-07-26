@@ -2,8 +2,8 @@
 
 exports[`BaseRepository create() 1`] = `
 MyRepository {
-  "items": Array [
-    Object {
+  "items": [
+    {
       "id": "1",
       "name": "my name",
     },
@@ -12,12 +12,12 @@ MyRepository {
 `;
 
 exports[`BaseRepository findAll() 1`] = `
-Array [
-  Object {
+[
+  {
     "id": "1",
     "name": "my name",
   },
-  Object {
+  {
     "id": "2",
     "name": "other",
   },
@@ -26,8 +26,8 @@ Array [
 
 exports[`BaseRepository update() 1`] = `
 MyRepository {
-  "items": Array [
-    Object {
+  "items": [
+    {
       "id": "1",
       "name": "updated",
     },
@@ -37,8 +37,8 @@ MyRepository {
 
 exports[`BaseRepository updateOrCreate() 1`] = `
 MyRepository {
-  "items": Array [
-    Object {
+  "items": [
+    {
       "id": "1",
       "name": "my name",
     },
@@ -48,8 +48,8 @@ MyRepository {
 
 exports[`BaseRepository updateOrCreate() 2`] = `
 MyRepository {
-  "items": Array [
-    Object {
+  "items": [
+    {
       "id": "1",
       "name": "my new name",
     },

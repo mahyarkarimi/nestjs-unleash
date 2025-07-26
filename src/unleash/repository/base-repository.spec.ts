@@ -31,7 +31,7 @@ describe('BaseRepository', () => {
 
   test('update()', () => {
     repository.create(row)
-    repository.update('1', { id: '1', name: 'updated' })
+    repository.update('1', { id: '1', name: 'updated' });
     expect(repository).toMatchSnapshot()
   })
 
